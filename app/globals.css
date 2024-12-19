@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://use.typekit.net/[YOUR-KIT-CODE].css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 3% 6%;
+  --foreground: 60 8% 79%;
+  --card: 0 0% 3.9%;
+  --card-foreground: 60 8% 79%;
+  --popover: 0 0% 3.9%;
+  --popover-foreground: 60 8% 79%;
+  --primary: 3 62% 42%;
+  --primary-foreground: 60 8% 79%;
+  --secondary: 4 59% 54%;
+  --secondary-foreground: 60 8% 79%;
+  --muted: 0 0% 14.9%;
+  --muted-foreground: 60 8% 79%;
+  --accent: 33 53% 84%;
+  --accent-foreground: 0 0% 9%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 60 8% 79%;
+  --border: 0 0% 14.9%;
+  --input: 0 0% 14.9%;
+  --ring: 357 55% 37%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: futura-pt, sans-serif;
+    @apply font-bold tracking-tight;
+  }
+  p, span, a, li {
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+.section-padding {
+  @apply py-24 px-4 md:px-6 lg:px-8;
+}
+
+.nav-link {
+  @apply relative text-foreground/80 hover:text-foreground transition-colors duration-200;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute left-0 bottom-[-4px] w-0 h-[2px] bg-primary transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.project-card {
+  @apply relative overflow-hidden rounded-lg bg-card p-6 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl;
+}
+
+.social-icon {
+  @apply text-foreground/80 hover:text-secondary transition-colors duration-200;
+}
+
+html {
+  scroll-behavior: smooth;
+}
