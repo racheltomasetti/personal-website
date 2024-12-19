@@ -17,11 +17,14 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-6xl md:text-7xl lg:text-8xl mb-6">
-            hi, i'm rachel tomasetti
+            hi, i'm
           </h1>
-          <p className="text-xl md:text-2xl text-foreground/80">
+          <h1 className="text-7xl md:text-8xl lg:text-9xl mb-6">
+            <em>rachel tomasetti</em>
+          </h1>
+          {/* <p className="text-xl md:text-2xl text-foreground/80">
             {randomQuote}
-          </p>
+          </p> */}
         </div>
         <div className="relative">
           <div className="aspect-[5/5] rounded-2xl overflow-hidden shadow-2xl relative">
