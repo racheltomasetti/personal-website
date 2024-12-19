@@ -12,19 +12,19 @@
   --card-foreground: 60 8% 79%;
   --popover: 0 0% 3.9%;
   --popover-foreground: 60 8% 79%;
-  --primary: 3 62% 42%;
-  --primary-foreground: 60 8% 79%;
-  --secondary: 4 59% 54%;
-  --secondary-foreground: 60 8% 79%;
+  --primary: 60 8% 79%;
+  --primary-foreground: 0 3% 6%;
+  --secondary: 60 8% 79%;
+  --secondary-foreground: 0 3% 6%;
   --muted: 0 0% 14.9%;
   --muted-foreground: 60 8% 79%;
-  --accent: 33 53% 84%;
-  --accent-foreground: 0 0% 9%;
+  --accent: 60 8% 79%;
+  --accent-foreground: 0 3% 6%;
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 60 8% 79%;
   --border: 0 0% 14.9%;
   --input: 0 0% 14.9%;
-  --ring: 357 55% 37%;
+  --ring: 60 8% 79%;
   --radius: 0.5rem;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .social-icon {
-  @apply text-foreground/80 hover:text-secondary transition-colors duration-200;
+  @apply text-foreground/80 hover:text-foreground transition-colors duration-200;
 }
 
 html {

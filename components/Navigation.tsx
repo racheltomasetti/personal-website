@@ -49,7 +49,7 @@ const Navigation = () => {
               href={`#${item.toLowerCase()}`}
               className={cn(
                 "nav-link",
-                activeSection === item.toLowerCase() && "text-secondary"
+                activeSection === item.toLowerCase() && "text-foreground"
               )}
             >
               {item}
