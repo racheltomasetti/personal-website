@@ -9,7 +9,7 @@ const Navigation = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'projects', 'resources', 'contact'];
+      const sections = ['home', 'about', 'curiosities', 'resources', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       sections.forEach((section) => {
@@ -43,7 +43,7 @@ const Navigation = () => {
           />
         </a>
         <div className="flex gap-8">
-          {['about', 'projects', 'resources', 'contact'].map((item) => (
+          {['about', 'curiosities', 'resources', 'contact'].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
