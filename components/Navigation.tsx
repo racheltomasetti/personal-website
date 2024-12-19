@@ -39,10 +39,10 @@ const Navigation = () => {
           <img 
             src="/signature.png" 
             alt="Rachel Tomasetti"
-            className="h-16 invert dark:invert-0"
+            className="h-8 md:h-12 lg:h-16 w-auto object-contain invert dark:invert-0"
           />
         </a>
-        <div className="flex gap-8">
+        <div className="flex gap-4 md:gap-8">
           {['about', 'curiosities', 'resources', 'contact'].map((item) => (
             <a
               key={item}
