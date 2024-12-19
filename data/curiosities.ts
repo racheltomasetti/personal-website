@@ -6,19 +6,19 @@ export type Curiosity = {
 
 export const curiosities: Curiosity[] = [
   {
-    id: 'ai',
-    title: 'Artificial Intelligence',
-    description: 'Exploring the intersection of human cognition and machine learning, particularly in creative and ethical domains.',
+    id: 'tech',
+    title: 'technology',
+    description: 'how can technology be utilized for good?',
   },
   {
-    id: 'design',
-    title: 'Design Systems',
-    description: 'Crafting cohesive and intuitive digital experiences through systematic design approaches.',
+    id: 'women',
+    title: 'women\'s health',
+    description: '\"While many of the world\'s natural resources are being depleted, one is waiting to be unleashed—women.\" -Sara Blakely',
   },
   {
-    id: 'philosophy',
-    title: 'Philosophy of Technology',
-    description: 'Understanding the profound ways technology shapes human experience and society.',
+    id: 'mind-body',
+    title: 'mind-body connection',
+    description: 'learning to live in the present moment',
   },
   // Add more curiosities here
 ];

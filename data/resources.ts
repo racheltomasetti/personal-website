@@ -1,14 +1,14 @@
 export const resources = [
   {
-    title: 'Design System',
-    description: 'A comprehensive guide to my design principles and components.'
+    title: 'women\'s health corpus',
+    description: 'A comprehensive collection of my learnings about women\'s health.'
   },
   {
-    title: 'Project Templates',
-    description: 'Starter templates for various types of web applications.'
+    title: 'technology corpus',
+    description: 'A collection of my learnings about technology and tools for web development.'
   },
   {
-    title: 'Development Guide',
-    description: 'Best practices and coding standards for web development.'
+    title: 'my personal life toolkit',
+    description: 'Tools I implement in my life that have helped me live better.'
   }
 ];
